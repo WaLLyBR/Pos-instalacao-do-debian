@@ -7,6 +7,7 @@ int main()
 	 
 	 int opcao; char menu;
 	 
+	 do{
 	 cout << "::::: Essencial ::::: \n\n";
 	 
 	 cout <<"1- Atualizar o sistema\n" "2- Instalar o Ufw\n" "3- Instalar o vlc\n" "4- Instalar o Kazam\n" "5- Instalar o Telegram\n\n";
@@ -40,5 +41,6 @@ int main()
 		break;
 	
 	}
+	}while(menu == 's');
 	
 }
